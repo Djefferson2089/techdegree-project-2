@@ -1,0 +1,48 @@
+/* Base Element Styles */
+* {
+  box-sizing: border-box;
+  }
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+p {
+  font-size: .95em;
+  margin-bottom: 1.8em;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* Base Layout Styles */
+.main-nav {
+  margin-top: 5px;
+}
+.main-nav a {
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: .95em;
+  text-transform: uppercase;
+}
+
+/* Media Queries */
+@media (min-width: 768px){
+.main-nav {
+  float: right;
+}
+.main-nav li {
+display: inline-block;
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+}
